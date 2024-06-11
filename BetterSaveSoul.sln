@@ -7,7 +7,7 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BssSQLServerDb", "src\Datab
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{AEBDAE01-8A97-4BB8-9123-B7A8D1514015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "src\API\API\API.csproj", "{6AA53A49-E2E0-4DBD-8289-F118DDD904A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "src\API\API\API.csproj", "{6AA53A49-E2E0-4DBD-8289-F118DDD904A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
