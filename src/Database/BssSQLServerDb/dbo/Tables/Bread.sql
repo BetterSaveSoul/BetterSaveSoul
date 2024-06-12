@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Bread]
+(
+	BreedID INT IDENTITY(1,1) NOT NULL,
+    SpeciesID INT FOREIGN KEY REFERENCES Species(SpeciesID) NOT NULL,
+    Name NVARCHAR(50) NOT NULL,
+    AName NVARCHAR(50) NOT NULL,
+    PRIMARY KEY (BreedID, SpeciesID)
+)
