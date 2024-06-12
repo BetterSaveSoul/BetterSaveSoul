@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[UserProfile]
 (
-    UserId INT PRIMARY KEY,
+    UserID INT PRIMARY KEY,
     FirstName NVARCHAR(100) NOT NULL,
     LastName NVARCHAR(100) NOT NULL,
     DateOfBirth DATE NOT NULL,
