@@ -3,7 +3,7 @@
 	PetID BIGINT PRIMARY KEY,
     Name NVARCHAR(100),
     SpeciesID INT FOREIGN KEY REFERENCES Species(SpeciesID) NOT NULL,
-    Breed INT FOREIGN KEY REFERENCES Breed(BreedID),
+    BreedID INT,
     DateOfBirth DATE NOT NULL,
     Gender SMALLINT FOREIGN KEY REFERENCES Gender(GenderID),
     Color NVARCHAR(50),
@@ -13,4 +13,5 @@
     NeuteredStatus BIT NOT NULL,
     Description NVARCHAR(255),
     OwnerProfileID INT FOREIGN KEY REFERENCES UserProfile(UserID),
+    FOREIGN KEY (BreedID, SpeciesID) REFERENCES Breed(BreedID, SpeciesID)
 )
