@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Gender]
 (
 	GenderID SMALLINT PRIMARY KEY,
-    GenderName NVARCHAR(10),
-    GenderAName NVARCHAR(10)
+    GenderName NVARCHAR(10) NOT NULL,
+    GenderAName NVARCHAR(10) NOT NULL
 )
