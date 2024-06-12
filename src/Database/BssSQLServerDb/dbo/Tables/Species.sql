@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Species]
+(
+	SpeciesID INT NOT NULL PRIMARY KEY,
+    Name NVARCHAR(50) NOT NULL,
+    AName NVARCHAR(50) NOT NULL
+)

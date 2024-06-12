@@ -60,4 +60,7 @@
     <Folder Include="dbo\Tables" />
     <Folder Include="dbo\Stored Procedures" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Species.sql" />
+  </ItemGroup>
 </Project>
