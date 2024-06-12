@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Location]
+(
+	LocationID INT PRIMARY KEY,
+    Address NVARCHAR(255) NOT NULL,
+    City NVARCHAR(100) NOT NULL,
+    State NVARCHAR(100) NOT NULL,
+    Country NVARCHAR(100) NOT NULL,
+    PostalCode NVARCHAR(20)
+)
