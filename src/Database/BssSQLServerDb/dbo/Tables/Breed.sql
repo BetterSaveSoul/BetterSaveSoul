@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Bread]
+﻿CREATE TABLE [dbo].[Breed]
 (
 	BreedID INT IDENTITY(1,1) NOT NULL,
     SpeciesID INT FOREIGN KEY REFERENCES Species(SpeciesID) NOT NULL,

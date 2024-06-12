@@ -62,9 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Species.sql" />
-    <Build Include="dbo\Tables\Bread.sql" />
+    <Build Include="dbo\Tables\Breed.sql" />
     <Build Include="dbo\Tables\Image.sql" />
     <Build Include="dbo\Tables\Gender.sql" />
     <Build Include="dbo\Tables\PetHealthStatus.sql" />
+    <Build Include="dbo\Tables\Pet.sql" />
   </ItemGroup>
 </Project>
