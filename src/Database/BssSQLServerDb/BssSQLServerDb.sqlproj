@@ -67,7 +67,8 @@
     <Build Include="dbo\Tables\Gender.sql" />
     <Build Include="dbo\Tables\PetHealthStatus.sql" />
     <Build Include="dbo\Tables\Pet.sql" />
-    <Build Include="dbo\Tables\UserGeoLocationData.sql" />
+    <Build Include="dbo\Tables\UserProfile.sql" />
     <Build Include="dbo\Tables\Location.sql" />
+    <Build Include="dbo\Tables\GeoLocation.sql" />
   </ItemGroup>
 </Project>
