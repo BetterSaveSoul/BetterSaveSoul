@@ -62,5 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Species.sql" />
+    <Build Include="dbo\Tables\Bread.sql" />
   </ItemGroup>
 </Project>
