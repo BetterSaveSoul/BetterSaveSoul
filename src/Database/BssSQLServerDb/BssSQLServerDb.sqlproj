@@ -65,5 +65,6 @@
     <Build Include="dbo\Tables\Bread.sql" />
     <Build Include="dbo\Tables\Image.sql" />
     <Build Include="dbo\Tables\Gender.sql" />
+    <Build Include="dbo\Tables\PetHealthStatus.sql" />
   </ItemGroup>
 </Project>
