@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
+using WebApp;
 using WebApp.Extensions;
 using WebApp.Infrastructure.ExternalServices;
 using WebApp.Infrastructure.Options;
@@ -10,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 var defaultConnectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
 builder.Services.AddIdentityConfigurations(builder.Configuration);
+
+builder.Services.AddDbContext<BssContext>(options => options.UseSqlServer(defaultConnectionString));
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
