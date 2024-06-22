@@ -1,4 +1,4 @@
-﻿namespace WebApp.Services
+﻿namespace WebApp.Infrastructure.Options
 {
     public class AuthMessageSenderOptions
     {

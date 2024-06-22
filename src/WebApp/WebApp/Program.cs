@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using WebApp.Extensions;
-using WebApp.Services;
+using WebApp.Infrastructure.ExternalServices;
+using WebApp.Infrastructure.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
