@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace WebApp.Data.Identity
 {
-    public class AppIdentityDbContext(DbContextOptions options) : IdentityDbContext<AppIdentityUser, AppIdentityRole, int,
+    public class AppIdentityDbContext(DbContextOptions<AppIdentityDbContext>options) : IdentityDbContext<AppIdentityUser, AppIdentityRole, int,
         AppIdentityUserClaim, AppIdentityUserRole, AppIdentityUserLogin
         , AppIdentityRoleClaim, AppIdentityUserToken>(options)
     {
