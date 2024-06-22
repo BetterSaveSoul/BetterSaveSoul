@@ -2,8 +2,10 @@
 using SendGrid.Helpers.Mail;
 using SendGrid;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.Extensions.Logging;
+using WebApp.Infrastructure.Options;
 
-namespace WebApp.Services
+namespace WebApp.Infrastructure.ExternalServices
 {
     public class EmailSender: IEmailSender
     {
